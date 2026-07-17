@@ -1,0 +1,186 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html style="overflow-y: hidden;">
+<head>
+	<title></title>
+	<meta content="text/html; charset=utf-8">
+</head>
+<body bgcolor="#FAFAFA" style="text-size-adjust: 100%; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; height: auto; width: 100% !important; min-height: auto;">
+<style type="text/css">#outlook a {
+          padding: 0;
+      }
+      .body{
+          width: 100% !important;
+          -webkit-text-size-adjust: 100%;
+          -ms-text-size-adjust: 100%;
+          margin: 0;
+          padding: 0;
+      }
+      .ExternalClass {
+          width:100%;
+      }
+      .ExternalClass,
+      .ExternalClass p,
+      .ExternalClass span,
+      .ExternalClass font,
+      .ExternalClass td,
+      .ExternalClass div {
+          line-height: 100%;
+      }
+      img {
+          outline: none;
+          text-decoration: none;
+          -ms-interpolation-mode: bicubic;
+      }
+      a img {
+          border: none;
+      }
+      p {
+          margin: 1em 0;
+      }
+      table td {
+          border-collapse: collapse;
+      }
+      /* hide unsubscribe from forwards*/
+      blockquote .original-only, .WordSection1 .original-only {
+        display: none !important;
+      }
+
+      @media only screen and (max-width: 480px){
+        body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:none !important;}
+                body{width:100% !important; min-width:100% !important;}
+
+        #bodyCell{padding:10px !important;}
+
+        #templateContainer{
+          max-width:600px !important;
+          width:100% !important;
+        }
+
+        h1{
+          font-size:24px !important;
+          line-height:100% !important;
+        }
+
+        h2{
+          font-size:20px !important;
+          line-height:100% !important;
+        }
+
+        h3{
+          font-size:18px !important;
+          line-height:100% !important;
+        }
+
+        h4{
+          font-size:16px !important;
+          line-height:100% !important;
+        }
+
+        #templatePreheader{display:none !important;}
+
+        #headerImage{
+          height:auto !important;
+          max-width:600px !important;
+          width:100% !important;
+        }
+
+        .headerContent{
+          font-size:20px !important;
+          line-height:125% !important;
+        }
+
+        .bodyContent{
+          font-size:18px !important;
+          line-height:125% !important;
+        }
+
+        .footerContent{
+          font-size:14px !important;
+          line-height:115% !important;
+        }
+
+        .footerContent a{display:block !important;}
+      }
+</style>
+<table align="center" border="0" cellpadding="0" cellspacing="0" id="bodyTable" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background-color: #FAFAFA; border-collapse: collapse !important; height: 100% !important; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0; width: 100% !important" width="100%">
+	<tbody>
+		<tr>
+			<td align="center" id="bodyCell" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; height: 100% !important; width: 100% !important; border-top-width: 4px; border-top-color: #dddddd; border-top-style: solid; margin: 0; padding: 20px;" valign="top">
+			<table border="0" cellpadding="0" cellspacing="0" id="templateContainer" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse !important; width: 600px; border: 1px solid #dddddd;">
+				<tbody>
+					<tr>
+						<td align="center" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" valign="top">&nbsp;</td>
+					</tr>
+					<tr>
+						<td align="center" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" valign="top">
+						<table border="0" cellpadding="0" cellspacing="0" id="templateHeader" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background-color: #FFFFFF; border-bottom-color: #CCCCCC; border-bottom-style: solid; border-bottom-width: 1px; border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt" width="100%">
+							<tbody>
+								<tr>
+									<td align="left" class="headerContent" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; color: #505050; font-family: Helvetica; font-size: 20px; font-weight: bold; line-height: 20px; text-align: left; vertical-align: middle; padding: 0;" valign="top">
+									<table style="width: 600px;background-color:#F1F2F4">
+										<tbody>
+											<tr>
+												<td style="width: 161px; text-align: center;"><br />
+												<img alt="" border="0" height="120" src="https://ulab--staging--c.sandbox.vf.force.com/resource/ulablogo" style="width: 120px; height: 120px; border-width: 0px; border-style: solid;" width="120" /><br />
+												&nbsp;</td>
+												<td style="width: 422px;">
+												<p style="line-height: 30px; color: rgb(22, 170, 220); text-align: left;"><span style="font-size:24px;"><strong>Account Information Needed</strong></span></p>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td align="center" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" valign="top">
+						<table border="0" cellpadding="0" cellspacing="0" id="templateBody" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background-color: #FFFFFF; border-bottom-color: #CCCCCC; border-bottom-style: solid; border-bottom-width: 1px; border-collapse: collapse !important; border-top-color: #FFFFFF; border-top-style: solid; border-top-width: 1px; mso-table-lspace: 0pt; mso-table-rspace: 0pt" width="100%">
+							<tbody>
+								<tr>
+									<td align="left" class="bodyContent" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; color: #505050; font-family: Helvetica; font-size: 14px; line-height: 21px; text-align: left; padding: 20px;" valign="top">
+									<p style="font-family: arial; font-size: 16px;">Dear {!Account.Account_POC_Firstname__c},<br />
+									<br />
+									Our team was not able to verify some of the information you entered for access to the uDesign&reg; digital platform.<br />
+									Please contact our Customer Success department for more information or to provide needed account details for activation.<br />
+									<br />
+									<a href="tel:18669008522">866-900-8522</a><br />
+									<a href="mailto:support@ulabsystems.com">support@ulabsystems.com</a><br />
+									<br />
+									Sincerely,<br />
+									Your uLab Team</p>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td align="center" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" valign="top">
+						<table border="0" cellpadding="0" cellspacing="0" id="templateFooter" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background-color: #FFFFFF; border-collapse: collapse !important; border-top-color: #FFFFFF; border-top-style: solid; border-top-width: 1px; mso-table-lspace: 0pt; mso-table-rspace: 0pt" width="100%">
+							<tbody>
+								<tr style="background-color: rgb(241, 242, 244);">
+									<td align="left" class="footerContent" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; color: #808080; font-family: Helvetica; font-size: 10px; line-height: 15px; text-align: left; padding: 0 20px 20px;" valign="top">
+									<p style="font-family:Arial,Helvetica,sans-serif; text-align: center; font-size:14px">We&rsquo;re here to help. Call <strong>+1 (866)-900-8522</strong> or Email <strong><a href="mailto:support@ulabsystems.com" style="text-decoration:none; color:#696969">support@ulabsystems.com</a></strong><br />
+									<br />
+									<strong><a href="https://www.ulabsystems.com/privacy-policy/" style="text-decoration:none; color:#696969">Privacy Policy</a> | <a href="https://www.ulabsystems.com/terms-of-use/" style="text-decoration:none; color:#696969">Terms of Use</a> | <a href="ulabsystems.com" style="text-decoration:none; color:#696969">ulabsystems.com</a></strong><br />
+									<br />
+									<a href="https://www.youtube.com/channel/UCT0w7jbhZM4heQJHiOKgQUw"><img alt="" border="0" height="24" src="https://ulab--staging--c.sandbox.vf.force.com/resource/youtube" style="width: 24px; height: 24px; border-width: 0px; border-style: solid;" width="24" /></a>&nbsp;&nbsp; <a href="https://www.instagram.com/ulabsystems/"><img alt="" border="0" height="24" src="https://ulab--staging--c.sandbox.vf.force.com/resource/instagram" style="width: 24px; height: 24px; border-width: 0px; border-style: solid;" width="24" /></a>&nbsp;&nbsp; <a href="https://www.facebook.com/uLabSystems"><img alt="" border="0" height="24" src="https://ulab--staging--c.sandbox.vf.force.com/resource/facebook" style="width: 24px; height: 24px; border-width: 0px; border-style: solid;" width="24" /></a>&nbsp;&nbsp; <a href="https://www.linkedin.com/company/ulabsystems"><img alt="" border="0" height="24" src="https://ulab--staging--c.sandbox.vf.force.com/resource/linkedin" style="width: 24px; height: 24px; border-width: 0px; border-style: solid;" width="24" /></a>&nbsp;&nbsp; <a href="https://x.com/SystemsUlab"><img alt="" border="0" height="23" src="https://ulab--staging--c.sandbox.vf.force.com/resource/x" style="width: 23px; height: 23px; border-width: 0px; border-style: solid;" width="23" /></a></p>
+
+									<p style="font-family:Arial,Helvetica,sans-serif; text-align: center; font-size:11px">&copy; 2026 uLab Systems, Inc. All Rights Reserved. uLab Systems, uSmile, uAssist and uView are trademarks and uLab and uDesign are registered trademarks of uLab Systems, Inc.</p>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</body>
+</html>

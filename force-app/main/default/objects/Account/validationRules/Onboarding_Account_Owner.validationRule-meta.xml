@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Onboarding_Account_Owner</fullName>
+    <active>true</active>
+    <description>You need to change the Account Owner before approving the onboarding account</description>
+    <errorConditionFormula>AND(
+RecordType.DeveloperName=&apos;Commercial&apos;,
+OR(
+    ISPICKVAL(Onboarding_Status__c,&apos;Approved&apos;),
+    ISPICKVAL(Onboarding_Status__c,&apos;Sending Approval&apos;)
+),
+OR(
+Owner.Profile.Name = &quot;System Administrator&quot;,
+Owner.Profile.Name = &quot;uLab SysAdmin&quot;
+)
+)</errorConditionFormula>
+    <errorDisplayField>OwnerId</errorDisplayField>
+    <errorMessage>You need to change the Account Owner before approving the onboarding account</errorMessage>
+</ValidationRule>

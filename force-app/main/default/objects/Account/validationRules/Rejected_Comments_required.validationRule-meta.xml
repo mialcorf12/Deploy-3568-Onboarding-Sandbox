@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rejected_Comments_required</fullName>
+    <active>true</active>
+    <description>Comments required for Sending Rejection</description>
+    <errorConditionFormula>AND(
+RecordType.DeveloperName=&apos;Commercial&apos;,
+ISPICKVAL(Onboarding_Status__c,&apos;Sending Rejection&apos;),
+OR(
+    ISBLANK(Rejection_comments__c),
+    LEN(Rejection_comments__c)&lt;10
+)
+)</errorConditionFormula>
+    <errorDisplayField>Rejection_comments__c</errorDisplayField>
+    <errorMessage>Comments required for Sending Rejection</errorMessage>
+</ValidationRule>

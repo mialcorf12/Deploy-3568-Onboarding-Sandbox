@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>uDC Account Rejected</name>
+    <style>none</style>
+    <subject>Account Information Needed</subject>
+    <textOnly>Account Information Needed
+
+Dear {!Account.Account_POC_Firstname__c},
+
+Our team was not able to verify some of the information you entered for access to the uDesign® digital platform.
+Please contact our Customer Success department for more information or to provide needed account details for activation.
+
+866-900-8522
+support@ulabsystems.com
+
+Sincerely,
+Your uLab Team
+
+We&apos;re here to help. Call +1 (866)-900-8522 or Email support@ulabsystems.com
+
+Privacy Policy | Terms of Use | ulabsystems.com
+
+
+© 2026 uLab Systems, Inc. All Rights Reserved. uLab Systems, uSmile, uAssist and uView are trademarks and uLab and uDesign are registered trademarks of uLab Systems, Inc.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

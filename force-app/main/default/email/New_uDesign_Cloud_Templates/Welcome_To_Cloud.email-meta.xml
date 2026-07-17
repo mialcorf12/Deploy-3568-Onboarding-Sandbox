@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Welcome To Cloud</name>
+    <style>none</style>
+    <subject>Welcome to uLab Systems!</subject>
+    <textOnly>Welcome to uLab®
+
+Hello {!Contact.FirstName},
+
+Thank you for choosing uLab to support your clear aligner needs for your patients. Whether you order uSmile™ aligners from our Memphis based facility or print aligners in-office, you have control over the treatment plan and the process. Getting started is simple:
+
+Click the link below to begin
+Choose a password
+Set your secret recovery questions
+Your account is set up!
+
+{!Contact.Activation_URL__c}
+This link will expire in seven days.
+
+If you have any questions please call us at +1 (866) 900-8522 or email us at support@ulabsystems.com.
+
+Happy Treatment Planning!
+The uLab Team
+
+We’re here to help. Call +1 (866)-900-8522 or Email support@ulabsystems.com
+
+Privacy Policy | Terms of Use | ulabsystems.com
+
+
+© 2026 uLab Systems, Inc. All Rights Reserved. uLab Systems, uSmile, uAssist and uView are trademarks and uLab and uDesign are registered trademarks of uLab Systems, Inc.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

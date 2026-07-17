@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Inform_SS_of_new_ANZ_Customer_for_uD10_Access</fullName>
+        <description>Inform SS of new ANZ Customer for uD10 Access</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>ruben@ulabsystems.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>stephane@ulabsystems.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>ruben@ulabsystems.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/ANZ_Acct_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>Invite_Customer_to_Portal</fullName>
+        <description>Invite Customer to Portal</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Account_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>support@ulabsystems.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>HubCustomerOnboarding/New_Activation_Email_1643209823705</template>
+    </alerts>
+    <alerts>
+        <fullName>uDC_Account_Approved</fullName>
+        <description>uDC Account Approved</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Account_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>support@ulabsystems.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>New_uDesign_Cloud_Templates/uDC_Account_Approved</template>
+    </alerts>
+    <alerts>
+        <fullName>uDC_Account_Rejected</fullName>
+        <description>uDC Account Rejected</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Account_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>support@ulabsystems.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>New_uDesign_Cloud_Templates/uDC_Account_Rejected</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Billing_Address_Change</fullName>
+        <field>NS_Billing_Address_Change__c</field>
+        <literalValue>1</literalValue>
+        <name>Billing Address Change</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Check_the_box</fullName>
+        <field>uDCloud_Customer__c</field>
+        <literalValue>1</literalValue>
+        <name>Check the box</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Converted_flag_to_False</fullName>
+        <field>Converted__c</field>
+        <literalValue>0</literalValue>
+        <name>Converted flag to False</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Fill_Portal_Added_Date</fullName>
+        <field>Date_Added_to_Portal__c</field>
+        <formula>TODAY()</formula>
+        <name>Fill Portal Added Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Lock_Company_Email</fullName>
+        <field>Lock_Company_Email__c</field>
+        <literalValue>1</literalValue>
+        <name>Lock Company Email</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Shipping_Address_Change</fullName>
+        <field>NS_Shipping_Address_Change__c</field>
+        <literalValue>1</literalValue>
+        <name>Shipping Address Change</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Boomi_Checkbox</fullName>
+        <field>Send_to_Boomi__c</field>
+        <literalValue>1</literalValue>
+        <name>Update Boomi Checkbox</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Hub_Invite_Sent_Date</fullName>
+        <field>Hub_Invite_Sent__c</field>
+        <formula>NOW()</formula>
+        <name>Update Hub Invite Sent Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Ortho_Investor_Date</fullName>
+        <field>Ortho_Investor_Date__c</field>
+        <formula>TODAY()</formula>
+        <name>Update Ortho Investor Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Software_Exp_Date</fullName>
+        <field>Software_Expiration_Date__c</field>
+        <formula>TODAY()</formula>
+        <name>Update Software Exp Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_uAssist_Date_Flag</fullName>
+        <field>uAssist_Flag_Date__c</field>
+        <formula>TODAY()</formula>
+        <name>Update uAssist Date Flag</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>ANZ Date Acct Added in Portal</fullName>
+        <actions>
+            <name>Inform_SS_of_new_ANZ_Customer_for_uD10_Access</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Fill_Portal_Added_Date</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Jeanne_This_is_a_new_acct_Needs_Program_Assignment</name>
+            <type>Task</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Account.uLab_Acct_Number__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.Date_Added_to_Portal__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.BillingCountry</field>
+            <operation>equals</operation>
+            <value>AU,NZ,SG</value>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Check flag for Billing Address Change</fullName>
+        <actions>
+            <name>Billing_Address_Change</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>OR(ISCHANGED(BillingAddress),  AND(ISNEW(),  NOT(ISNULL(BillingAddress))))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Check flag for Shipping Address Change</fullName>
+        <actions>
+            <name>Shipping_Address_Change</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>OR(ISCHANGED(ShippingAddress ),  AND(ISNEW(),  NOT(ISNULL(ShippingAddress ))))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Cloud Customer Autocheck</fullName>
+        <actions>
+            <name>Check_the_box</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Account.BillingCountry</field>
+            <operation>equals</operation>
+            <value>US</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.Latest_SW_Agreement_Signed__c</field>
+            <operation>greaterOrEqual</operation>
+            <value>4/11/2025</value>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Hub Invite</fullName>
+        <active>false</active>
+        <criteriaItems>
+            <field>Account.Hub_MVP_Invitation_Date__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.Hub_Invite_Sent__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Update_Hub_Invite_Sent_Date</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>Account.Hub_MVP_Invitation_Date__c</offsetFromField>
+            <timeLength>1</timeLength>
+            <workflowTimeTriggerUnit>Hours</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Ortho Investor</fullName>
+        <actions>
+            <name>Update_Ortho_Investor_Date</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Account.Ortho_Investor__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.Ortho_Investor_Date__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <description>When Ortho Investor is checked, add the date to the account.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Test11</fullName>
+        <active>false</active>
+        <formula>ISPICKVAL( Account_Status__c, &apos;Rejected&apos;)  || ISPICKVAL( Account_Status__c , &apos;On-Hold&apos;)</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>US%2FCA Date Acct Added in Portal</fullName>
+        <actions>
+            <name>Fill_Portal_Added_Date</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Lori_This_is_a_new_acct_Needs_Program_Assignment</name>
+            <type>Task</type>
+        </actions>
+        <actions>
+            <name>Raven_this_is_a_new_acct_Needs_Program_Assignment</name>
+            <type>Task</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Account.uLab_Acct_Number__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.Date_Added_to_Portal__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.BillingCountry</field>
+            <operation>equals</operation>
+            <value>US,CA</value>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Uncheck converted flag</fullName>
+        <active>true</active>
+        <criteriaItems>
+            <field>Account.Converted__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Converted_flag_to_False</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <timeLength>1</timeLength>
+            <workflowTimeTriggerUnit>Hours</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <tasks>
+        <fullName>Jeanne_This_is_a_new_acct_Needs_Program_Assignment</fullName>
+        <assignedTo>junj.wu@ulabsystems.com</assignedTo>
+        <assignedToType>user</assignedToType>
+        <description>Hello
+This account is new and needs a Marketing Reward Program Assignment.</description>
+        <dueDateOffset>0</dueDateOffset>
+        <notifyAssignee>true</notifyAssignee>
+        <priority>Normal</priority>
+        <protected>false</protected>
+        <status>Closed</status>
+        <subject>Jeanne - This is a new acct - Needs Program Assignment</subject>
+    </tasks>
+    <tasks>
+        <fullName>Lori_This_is_a_new_acct_Needs_Program_Assignment</fullName>
+        <assignedTo>lori@ulabsystems.com</assignedTo>
+        <assignedToType>user</assignedToType>
+        <description>Hello
+This account is new and needs a Marketing Reward Program Assignment.</description>
+        <dueDateOffset>0</dueDateOffset>
+        <notifyAssignee>true</notifyAssignee>
+        <priority>Normal</priority>
+        <protected>false</protected>
+        <status>Closed</status>
+        <subject>Lori - This is a new acct - Needs Program Assignment</subject>
+    </tasks>
+    <tasks>
+        <fullName>Raven_this_is_a_new_acct_Needs_Program_Assignment</fullName>
+        <assignedTo>raven.swing@ulabsystems.com</assignedTo>
+        <assignedToType>user</assignedToType>
+        <description>Hello
+This account is new and needs a Marketing Reward Program Assignment.
+
+Thx
+Ruben</description>
+        <dueDateOffset>0</dueDateOffset>
+        <notifyAssignee>true</notifyAssignee>
+        <priority>Normal</priority>
+        <protected>false</protected>
+        <status>Closed</status>
+        <subject>Raven - this is a new acct - Needs Program Assignment</subject>
+    </tasks>
+</Workflow>

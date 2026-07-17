@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Change Onboarding_Status__c from status pending to status=Sending Approval, including comments</description>
+    <fieldOverrides>
+        <field>Onboarding_Status__c</field>
+        <literalValue>Sending Approval</literalValue>
+    </fieldOverrides>
+    <label>Approved</label>
+    <optionsCreateFeedItem>false</optionsCreateFeedItem>
+    <quickActionLayout>
+        <layoutSectionStyle>TwoColumnsLeftToRight</layoutSectionStyle>
+        <quickActionLayoutColumns>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>Approval_comments__c</field>
+                <uiBehavior>Edit</uiBehavior>
+            </quickActionLayoutItems>
+        </quickActionLayoutColumns>
+        <quickActionLayoutColumns/>
+    </quickActionLayout>
+    <successMessage>The record was approved</successMessage>
+    <type>Update</type>
+</QuickAction>

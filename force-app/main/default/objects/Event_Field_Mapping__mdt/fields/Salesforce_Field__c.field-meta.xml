@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Salesforce_Field__c</fullName>
+    <description>The Salesforce field API name to read from the SObject record (e.g. Name, Account_Status__c).</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Enter the exact Salesforce field API name, including __c suffix for custom fields.</inlineHelpText>
+    <label>Salesforce Field</label>
+    <length>80</length>
+    <required>true</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
