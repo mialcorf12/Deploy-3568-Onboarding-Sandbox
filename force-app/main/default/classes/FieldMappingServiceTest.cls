@@ -152,8 +152,8 @@ private class FieldMappingServiceTest {
         // trigger context never populates their relationship fields, so buildPayload
         // must resolve Integration_Specialist__r.Name via the pre-queried relatedNames
         // record instead of putting the raw Id in the payload.
-        Id specialistId = UserInfo.getUserId();
-        String specialistName = [SELECT Name FROM User WHERE Id = :specialistId].Name;
+        String specialistName = [SELECT Integration_Specialist__c FROM User WHERE profile.name='uLab Area Sales Directors' and IsActive=true  limit 1].Integration_Specialist__c;
+        Id specialistId = [SELECT Id FROM User WHERE Name=:specialistName].Id;
 
         Account acc = OrgEventTestFactory.createAccount(false, 'Pending Approval');
         acc.Integration_Specialist__c = specialistId;

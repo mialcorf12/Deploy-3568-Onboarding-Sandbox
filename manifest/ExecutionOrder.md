@@ -20,8 +20,25 @@ QuickActions
 classes
 triggers
 
+# turn off process failed
+Version 14: Invite Customer - Contact Updates
+Version 3: Send to NetSuite - Contact
+Version 5: Update ASD Email
+ValidationRule Onboarding_Account_Owner 
+
+
 # Deploy testclass running
 AccountAssignmentRulesTest, AccountTriggerHandlerTest, ContactTriggerHandlerTest, FieldMappingSelectorCacheTest, FieldMappingServiceTest, OrgEventTestFactory, UdcOnboardingServiceTest
+
+# help querys
+SELECT Name, Id, IsActive, Integration_Specialist__c, Development_Specialist__c from User where name in ('Annie Thompson', 'Cat Scarlatella', 'Cindy Carlsen', 'Daniel Cantu', 'Jane Gustafson', 'Janna Nelson', 'Jason Kirsch', 'Jennifer Bigelow', 'Jenny Oakes', 'Joanne Padula', 'Joy Hayes', 'Joy Poe', 'Kathya Alferez', 'Melanie Danielson', 'Robin Craycraft', 'Steve Sutherland', 'Valerie Cameron') order by IsActive, Name
+
+### Tyler Nazar	0056g000006AzhJAAS	true	Jenny Oakes, cambiar por Jason Kirsch
+
+
+
+
+
 
 
 
