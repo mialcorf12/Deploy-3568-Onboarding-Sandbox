@@ -21,6 +21,7 @@ public with sharing class FieldMappingService {
     // so these require a supplemental query. Value is the relationship name
     // used to traverse to the related record via SObject.getSObject().
     private static final Map<String, String> RELATIONSHIP_NAME_FIELDS = new Map<String, String>{
+        'OwnerId'                   => 'Owner',
         'Integration_Specialist__c' => 'Integration_Specialist__r',
         'Development_Specialist__c' => 'Development_Specialist__r'
     };

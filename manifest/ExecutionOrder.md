@@ -13,6 +13,8 @@ CustomField
 ListView
 ValidationRule
 CustomMetadata
+platformEventChannels
+platformEventChannelMembers
 EmailTemplate
 Workflows (email alerts)
 Flows and flowDefinitions
@@ -20,7 +22,7 @@ QuickActions
 classes
 triggers
 
-# turn off process failed
+# turn off process failed, first disabled, deploy, enabled
 Version 14: Invite Customer - Contact Updates
 Version 3: Send to NetSuite - Contact
 Version 5: Update ASD Email
@@ -36,6 +38,36 @@ SELECT Name, Id, IsActive, Integration_Specialist__c, Development_Specialist__c 
 ### Tyler Nazar	0056g000006AzhJAAS	true	Jenny Oakes, cambiar por Jason Kirsch
 
 
+
+# Manual Adjustments
+Enabled ValidationRule Onboarding_Account_Owner 
+Check Email Templates images
+Enable Actions_for_uDC_Account_Onboarding_Status v1, Company_Integration_Specialist_Assignment v2
+upload 4 platformEventChannelMembers
+Profile uLab SysAdmin - Access all new apex class
+Add QuickAction in pagalayout Account.Sales Account Layout
+CustomField
+    <members>Account.Account_POC_Firstname__c</members>
+    <members>Account.Approval_Rejected_Email_sent__c</members>
+    <members>Account.Approval_comments__c</members>
+    <members>Account.Cloud_Customer__c</members>
+    <members>Account.Cloud_Assignment__c</members>
+    <members>Account.License_Number__c</members>
+    <members>Account.Onboarding_Status__c</members>
+    <members>Account.Rejection_comments__c</members>
+    <members>Account.UDC_Onboarding__c</members>
+    <members>Contact.UDC_Onboarding__c</members>
+    <members>Contact.uLab_Acct_Number__c</members>
+
+
+System Administrator
+uLab SysAdmin
+uLab uAssist Lead & Sr. Trainer
+uLab Area Sales Directors
+uLab Clinical Training & Development
+uLab Sales Executive
+uLab Sales Manager
+uLab Sr VP of Sales
 
 
 
