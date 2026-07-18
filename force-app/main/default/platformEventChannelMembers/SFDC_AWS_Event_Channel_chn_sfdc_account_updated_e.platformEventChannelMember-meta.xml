@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PlatformEventChannelMember xmlns="http://soap.sforce.com/2006/04/metadata">
+    <eventChannel>SFDC_AWS_Event_Channel__chn</eventChannel>
+    <selectedEntity>sfdc_account_updated__e</selectedEntity>
+</PlatformEventChannelMember>
