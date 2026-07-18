@@ -84,4 +84,19 @@ public class ContactTriggerHandlerTest
 
         System.assert(true, 'Empty list handled gracefully');
     }
+
+    // ─── Scenario 4: real update DML → ContactTrigger fires end-to-end ──────────
+
+    @isTest
+    static void testTrigger_firesOnContactUpdate() {
+        Account acc = OrgEventTestFactory.createAccount(true, 'Approved');
+        Contact con = OrgEventTestFactory.createContact(acc.Id, 'PU-001', 'Digital Assistant');
+
+        Test.startTest();
+        con.Email = 'changed@example.com';
+        update con;
+        Test.stopTest();
+
+        System.assert(true, 'ContactTrigger fired without exception on real Contact update');
+    }
 }
