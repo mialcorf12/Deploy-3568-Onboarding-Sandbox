@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Account_POC_Firstname__c</fullName>
+    <fullName>Account_POC__c</fullName>
     <externalId>false</externalId>
-    <label>Account POC Firstname</label>
+    <label>Account POC</label>
     <length>30</length>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>

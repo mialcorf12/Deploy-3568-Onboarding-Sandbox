@@ -141,7 +141,7 @@
 							<tbody>
 								<tr>
 									<td align="left" class="bodyContent" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; color: #505050; font-family: Helvetica; font-size: 14px; line-height: 21px; text-align: left; padding: 20px;" valign="top">
-									<p style="font-family: arial; font-size: 16px;">Dear {!Account.Account_POC_Firstname__c},<br />
+									<p style="font-family: arial; font-size: 16px;">Dear Dr. {!Account.Account_POC__c},<br />
 									<br />
 									Congratulations, your account information has been verified and you now have full access to the uDesign&reg; Cloud and Desktop digital orthodontic platforms. You may now proceed with adding users to your account, placing orders for uAssist Treatment planning assistance, export STLs for in-office printing, and order aligners or retainers from uLab&rsquo;s US-based manufacturing facility.<br />
 									<br />

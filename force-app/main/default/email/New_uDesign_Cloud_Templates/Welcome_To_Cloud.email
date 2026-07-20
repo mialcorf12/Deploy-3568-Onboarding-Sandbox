@@ -141,7 +141,7 @@
 							<tbody>
 								<tr>
 									<td align="left" class="bodyContent" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; color: #505050; font-family: Helvetica; font-size: 14px; line-height: 21px; text-align: left; padding: 20px;" valign="top">
-									<p style="font-family: arial; font-size: 16px;">Hello&nbsp;{!Contact.FirstName},<br />
+									<p style="font-family: arial; font-size: 16px;">Welcome&nbsp;Dr.&nbsp;{!Contact.LastName},<br />
 									<br />
 									Thank you for choosing uLab to support your clear aligner needs for your patients. Whether you order uSmile&trade; aligners from our Memphis based facility or print aligners in-office, you have control over the treatment plan and the process. Getting started is simple:</p>
 

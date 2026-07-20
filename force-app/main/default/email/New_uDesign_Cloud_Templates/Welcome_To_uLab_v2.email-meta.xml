@@ -7,7 +7,7 @@
     <subject>Welcome to uLab Systems!</subject>
     <textOnly>Welcome to uLab®
 
-Hello {!Contact.FirstName},
+Welcome Dr. {!Contact.LastName},
 
 Thank you for choosing uLab to support your clear aligner needs for your patients. Whether you order uSmile™ aligners from our Memphis based facility or print aligners in-office, you have control over the treatment plan and the process. Getting started is simple:
 

@@ -7,7 +7,7 @@
     <subject>Account Information Needed</subject>
     <textOnly>Account Information Needed
 
-Dear {!Account.Account_POC_Firstname__c},
+Dear Dr. {!Account.Account_POC__c},
 
 Our team was not able to verify some of the information you entered for access to the uDesign® digital platform.
 Please contact our Customer Success department for more information or to provide needed account details for activation.

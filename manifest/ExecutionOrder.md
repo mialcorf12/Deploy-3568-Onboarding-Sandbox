@@ -47,7 +47,7 @@ upload 4 platformEventChannelMembers
 Profile uLab SysAdmin - Access all new apex class
 Add QuickAction in pagalayout Account.Sales Account Layout
 CustomField
-    <members>Account.Account_POC_Firstname__c</members>
+    <members>Account.Account_POC__c</members>
     <members>Account.Approval_Rejected_Email_sent__c</members>
     <members>Account.Approval_comments__c</members>
     <members>Account.Cloud_Customer__c</members>
@@ -89,7 +89,7 @@ Created StaticResource file:///Users/albertocordero/Documents/VSC/BackUp%203568%
 Created StaticResource file:///Users/albertocordero/Documents/VSC/BackUp%203568%20Onboarding%20Staging/force-app/main/default/staticresources/linkedin.png
 Created StaticResource file:///Users/albertocordero/Documents/VSC/BackUp%203568%20Onboarding%20Staging/force-app/main/default/staticresources/linkedin.resource-meta.xml
 Created Group file:///Users/albertocordero/Documents/VSC/BackUp%203568%20Onboarding%20Staging/force-app/main/default/groups/AccountAssignmentRule_Admins.group-meta.xml
-Created CustomField file:///Users/albertocordero/Documents/VSC/BackUp%203568%20Onboarding%20Staging/force-app/main/default/objects/Account/fields/Account_POC_Firstname__c.field-meta.xml
+Created CustomField file:///Users/albertocordero/Documents/VSC/BackUp%203568%20Onboarding%20Staging/force-app/main/default/objects/Account/fields/Account_POC__c.field-meta.xml
 Created CustomField file:///Users/albertocordero/Documents/VSC/BackUp%203568%20Onboarding%20Staging/force-app/main/default/objects/Account/fields/Approval_Rejected_Email_sent__c.field-meta.xml
 Created CustomField file:///Users/albertocordero/Documents/VSC/BackUp%203568%20Onboarding%20Staging/force-app/main/default/objects/Account/fields/Approval_comments__c.field-meta.xml
 Created CustomField file:///Users/albertocordero/Documents/VSC/BackUp%203568%20Onboarding%20Staging/force-app/main/default/objects/Account/fields/License_Number__c.field-meta.xml

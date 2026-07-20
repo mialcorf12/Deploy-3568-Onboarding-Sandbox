@@ -7,7 +7,7 @@
     <subject>Account Approved</subject>
     <textOnly>Account Approved
 
-Dear {!Account.Account_POC_Firstname__c},
+Dear Dr. {!Account.Account_POC__c},
 
 Congratulations, your account information has been verified and you now have full access to the uDesign® Cloud and Desktop digital orthodontic platforms. You may now proceed with adding users to your account, placing orders for uAssist Treatment planning assistance, export STLs for in-office printing, and order aligners or retainers from uLab&apos;s US-based manufacturing facility.
 
