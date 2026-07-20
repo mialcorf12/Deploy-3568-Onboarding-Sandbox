@@ -121,7 +121,7 @@
 										<tbody>
 											<tr>
 												<td style="width: 161px; text-align: center;"><br />
-												<img alt="" border="0" height="120" src="https://ulab--staging--c.sandbox.vf.force.com/resource/ulablogo" style="width: 120px; height: 120px; border-width: 0px; border-style: solid;" width="120" /><br />
+												<img alt="" border="0" height="120" src="https://ulab.my.site.com/smiledesign/resource/ulablogo" style="width: 120px; height: 120px; border-width: 0px; border-style: solid;" width="120" /><br />
 												&nbsp;</td>
 												<td style="width: 422px;">
 												<p style="line-height: 30px; color: rgb(22, 170, 220); text-align: left;"><span style="font-size:24px;"><strong>Welcome to uLab&reg;</strong></span></p>
@@ -152,28 +152,28 @@
 										<li style="font-family: arial; font-size: 16px;">Your account is set up!</li>
 									</ol>
 
-									<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="border-collapse: collapse; table-layout: fixed;">
-									<tr>
-										<td align="center" style="padding: 0;">
-										<!--[if mso]>
-										<v:roundedrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="{!Contact.Activation_URL__c}" style="height:42px;v-text-anchor:middle;width:233px;" arcsize="10%" stroke="f" fillcolor="#1b63da">
-											<w:anchorlock/>
-											<center style="color:#ffffff;font-family:Arial,sans-serif;font-size:13px;font-weight:bold;letter-spacing:0.5px;">GET STARTED WITH ULAB</center>
-										</v:roundedrect>
-										<![endif]-->
-										<!--[if !mso]><!-->
-										<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse: separate; width: 233px;">
-											<tr>
-											<td align="center" bgcolor="#1b63da" style="border-radius: 4px; background-color: #1b63da; text-align: center; height: 42px; vertical-align: middle;">
-												<a href="{!Contact.Activation_URL__c}" target="_blank" style="color: #ffffff; font-family: Arial, sans-serif; font-size: 13px; font-weight: bold; text-decoration: none; text-transform: uppercase; letter-spacing: 0.5px; line-height: 42px; display: block; width: 100%; height: 42px;">
-												Get Started with Ulab
-												</a>
+									<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="border-collapse: collapse;">
+										<tr>
+											<td align="center">
+											<!--[if mso]>
+											<v:roundedrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="{!Contact.Activation_URL__c}" style="height:50px;v-text-anchor:middle;width:240px;" arcsize="8%" stroke="f" fillcolor="#1b63da">
+												<w:anchorlock/>
+												<center style="color:#ffffff;font-family:Arial,sans-serif;font-size:13px;font-weight:bold;letter-spacing:0.5px;text-transform:uppercase;">GET STARTED WITH ULAB</center>
+											</v:roundedrect>
+											<![endif]-->
+											<!--[if !mso]><!-->
+											<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse: separate; border-spacing: 0; width: auto;">
+												<tr>
+												<td align="center" bgcolor="#1b63da" style="border-radius: 4px; mso-padding-alt: 10px 28px; padding: 10px 28px;">
+													<a href="{!Contact.Activation_URL__c}" target="_blank" style="color: #ffffff; font-family: Arial, sans-serif; font-size: 13px; font-weight: bold; text-decoration: none; text-transform: uppercase; letter-spacing: 0.5px; white-space: nowrap;">
+													GET STARTED WITH ULAB
+													</a>
+												</td>
+												</tr>
+											</table>
+											<!--<![endif]-->
 											</td>
-											</tr>
-										</table>
-										<!--<![endif]-->
-										</td>
-									</tr>
+										</tr>
 									</table>
 
 									<p style="font-family: arial; font-size: 16px; text-align: center;"><span style="color:#999999;">This link will expire in seven days.</span></p>
@@ -199,7 +199,7 @@
 									<br />
 									<strong><a href="https://www.ulabsystems.com/privacy-policy/" style="text-decoration:none; color:#696969">Privacy Policy</a> | <a href="https://www.ulabsystems.com/terms-of-use/" style="text-decoration:none; color:#696969">Terms of Use</a> | <a href="ulabsystems.com" style="text-decoration:none; color:#696969">ulabsystems.com</a></strong><br />
 									<br />
-									<a href="https://www.youtube.com/channel/UCT0w7jbhZM4heQJHiOKgQUw"><img alt="" border="0" height="24" src="https://ulab--staging--c.sandbox.vf.force.com/resource/youtube" style="width: 24px; height: 24px; border-width: 0px; border-style: solid;" width="24" /></a>&nbsp;&nbsp; <a href="https://www.instagram.com/ulabsystems/"><img alt="" border="0" height="24" src="https://ulab--staging--c.sandbox.vf.force.com/resource/instagram" style="width: 24px; height: 24px; border-width: 0px; border-style: solid;" width="24" /></a>&nbsp;&nbsp; <a href="https://www.facebook.com/uLabSystems"><img alt="" border="0" height="24" src="https://ulab--staging--c.sandbox.vf.force.com/resource/facebook" style="width: 24px; height: 24px; border-width: 0px; border-style: solid;" width="24" /></a>&nbsp;&nbsp; <a href="https://www.linkedin.com/company/ulabsystems"><img alt="" border="0" height="24" src="https://ulab--staging--c.sandbox.vf.force.com/resource/linkedin" style="width: 24px; height: 24px; border-width: 0px; border-style: solid;" width="24" /></a>&nbsp;&nbsp; <a href="https://x.com/SystemsUlab"><img alt="" border="0" height="23" src="https://ulab--staging--c.sandbox.vf.force.com/resource/x" style="width: 23px; height: 23px; border-width: 0px; border-style: solid;" width="23" /></a></p>
+									<a href="https://www.youtube.com/channel/UCT0w7jbhZM4heQJHiOKgQUw"><img alt="" border="0" height="24" src="https://ulab.my.site.com/smiledesign/resource/youtube" style="width: 24px; height: 24px; border-width: 0px; border-style: solid;" width="24" /></a>&nbsp;&nbsp; <a href="https://www.instagram.com/ulabsystems/"><img alt="" border="0" height="24" src="https://ulab.my.site.com/smiledesign/resource/instagram" style="width: 24px; height: 24px; border-width: 0px; border-style: solid;" width="24" /></a>&nbsp;&nbsp; <a href="https://www.facebook.com/uLabSystems"><img alt="" border="0" height="24" src="https://ulab.my.site.com/smiledesign/resource/facebook" style="width: 24px; height: 24px; border-width: 0px; border-style: solid;" width="24" /></a>&nbsp;&nbsp; <a href="https://www.linkedin.com/company/ulabsystems"><img alt="" border="0" height="24" src="https://ulab.my.site.com/smiledesign/resource/linkedin" style="width: 24px; height: 24px; border-width: 0px; border-style: solid;" width="24" /></a>&nbsp;&nbsp; <a href="https://x.com/SystemsUlab"><img alt="" border="0" height="23" src="https://ulab.my.site.com/smiledesign/resource/x" style="width: 23px; height: 23px; border-width: 0px; border-style: solid;" width="23" /></a></p>
 
 									<p style="font-family:Arial,Helvetica,sans-serif; text-align: center; font-size:11px">&copy; 2026 uLab Systems, Inc. All Rights Reserved. uLab Systems, uSmile, uAssist and uView are trademarks and uLab and uDesign are registered trademarks of uLab Systems, Inc.</p>
 									</td>
