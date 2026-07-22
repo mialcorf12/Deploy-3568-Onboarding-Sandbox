@@ -3,6 +3,7 @@
 	<types>
 		<members>AccountAssignmentRules</members>
 		<members>AccountAssignmentRulesTest</members>
+		<members>AccountAssignmentRulesQueueable</members>
 		<members>AccountTriggerHandler</members>
 		<members>AccountTriggerHandlerTest</members>
 		<members>ContactTriggerHandler</members>
@@ -55,6 +56,7 @@
 		<members>sfdc_accountuser_createdSuccess__e.Portal_User_ID__c</members>
 		<members>sfdc_accountuser_createdSuccess__e.uLab_Acct_Number__c</members>
 		<members>sfdc_user_updated__e.Payload__c</members>
+		<members>SysAdmin_Profile__mdt.ProfileId__c</members>
 		<name>CustomField</name>
 	</types>
 	<types>
@@ -119,6 +121,8 @@
 		<members>Event_Field_Mapping__mdt.Contact_Title</members>
 		<members>Event_Field_Mapping__mdt.Contact_Username</members>
 		<members>Event_Field_Mapping__mdt.Contact_uLab_Acct_Number</members>
+		<members>SysAdmin_Profile__mdt.System_Administrator</members>
+		<members>SysAdmin_Profile__mdt.uLab_SysAdmin</members>
 		<name>CustomMetadata</name>
 	</types>
 	<types>
@@ -128,6 +132,7 @@
 		<members>sfdc_accountuser_createdFailed__e</members>
 		<members>sfdc_accountuser_createdSuccess__e</members>
 		<members>sfdc_user_updated__e</members>
+		<members>SysAdmin_Profile__mdt</members>
 		<name>CustomObject</name>
 	</types>
 	<types>
